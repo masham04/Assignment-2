@@ -1,0 +1,246 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto,sans-serif;
+  scroll-behavior: smooth;
+}
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.text-l {
+  max-width: 50%;
+}
+.py {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.my {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/*------------------------------------------Top Bar---------------------------------*/
+.top-bar {
+  width: 100%;
+  background-color: rgb(54, 51, 51);
+  padding: 10px 40px;
+}
+#top-icons {
+  margin-left: 5px;
+  color: white;
+  font-size: 20px;
+}
+.top-right {
+  float: right;
+  color: white;
+  line-height: 20px;
+}
+#right-icons {
+  color: rgb(54, 209, 54);
+}
+.btn-top {
+  background-color: rgb(54, 209, 54);
+  color: black;
+  font-weight: bold;
+  height: 30px;
+  width: 120px;
+  border: 2px solid rgb(54, 209, 54);
+  border-radius: 2px;
+  margin-top: -4px;
+}
+/*-------------------------------------------Navbar----------------------------*/
+.topnav {
+  overflow: hidden;
+  background-color: rgb(87, 80, 80);
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 34px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 20px;
+  transition: all 0.2s;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*---------------------------------------------Header---------------------*/
+.header {
+  height: 500px;
+  background-image: url("/images/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container .header-content {
+  color: #ffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 170px;
+  max-width: 700px;
+}
+.header-content h1 {
+  font-size: 50px;
+}
+.btn {
+  background-color: rgb(54, 209, 54);
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  height: 50px;
+  width: 150px;
+  border: 2px solid rgb(54, 209, 54);
+  border-radius: 2px;
+  cursor: pointer;
+}
+/*--------------------------------------Advantages------------------------------------*/
+
+.container .success {
+  color: rgb(54, 209, 54);
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1100px;
+  margin: auto;
+}
+.item {
+  width: 300px;
+  margin: 20px;
+  flex: 1;
+  text-align: center;
+}
+/*------------------------------------------About us--------------------------------*/
+.about {
+  height: 500px;
+  background-image: url("/images/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about .container {
+  
+  color: white;
+  
+}
+/*------------------------------------------Services------------------------------------*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card {
+  flex: 1;
+  height: 300px;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all .4s ease-in-out;
+}
+.card button{
+  background-color: rgb(54, 209, 54);
+  color: black;
+  font-size: 10px;
+  padding: 5px;
+  height: 25px;
+  width: 70px;
+  border: 2px solid rgb(54, 209, 54);
+  border-radius: 2px;
+  cursor: pointer;
+}
+.card:hover{
+  background-color: rgb(87 80 80);
+  color: white;
+}
+
+
+/*------------------------------------------project------------------------------------*/
+.project{
+  background-color: rgb(54, 209, 54);
+  color: #ffff;
+  height: 400px;
+}
+.form{
+  width: 400px;
+  display: block;
+  margin: auto;
+  
+}
+.form input{
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid rgb(171, 171, 200);
+  border-radius: 5px;
+}
+.form button{
+  background-color: rgb(54, 51, 51);
+  color: #ffff;
+  font-weight: bold;
+  height: 40px;
+  width: 120px;
+  border: 2px solid rgb(54, 51, 51);
+  border-radius: 5px;
+  cursor: pointer;
+}
+/*------------------------------------------contacts------------------------------------*/
+.contact{
+  text-align: center;
+}
+#phone{
+  color: rgb(54, 209, 54);
+  font-size: 20px;
+
+}
+#envelop{
+  color: rgb(54, 209, 54);
+  font-size: 20px;
+}
+#location{
+  color: rgb(54, 209, 54);
+  font-size: 20px;
+
+}
+/*------------------------------------------Footer------------------------------------*/
+.footer{
+  height: 300px;
+  background-color: rgb(54, 51, 51);
+  color: #ffff;
+}
+.footer-flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.child{
+  flex: 1;
+  height: 300px;
+  padding: 20px;
+  float: left;
+}
+.child h4{
+    padding-top: 20px;
+    cursor: pointer;
+}
